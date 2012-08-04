@@ -1,5 +1,5 @@
 ﻿/*
-CSS Title Here
+Tabs Styling
 Jordan Haines
 web: www.jordanairwave.co.uk
 Twitter: @jordanairwave
@@ -74,6 +74,12 @@ p { margin-bottom: 10px; }
 .tabs_navigation ul li a:visited { display: block; padding: 5px 10px 5px 10px; margin: 0; text-decoration: none; }
 .tabs_navigation ul li a:hover,
 .tabs_navigation ul li a:focus { text-decoration: underline; background-color: #cacaca; color: #fff; }
+
+.tabs_navigation ul li.current a:link,
+.tabs_navigation ul li.current a:active,
+.tabs_navigation ul li.current a:visited,
+.tabs_navigation ul li.current a:hover,
+.tabs_navigation ul li.current a:focus { display: block; padding: 5px 10px 5px 10px; margin: 0; text-decoration: none; background-color: #cacaca; color: #fff; }
 
 .tabs_wrapper { position: relative; width: 900px; height: 85px; padding: 0; margin: 0; border: 1px solid #000; }
 

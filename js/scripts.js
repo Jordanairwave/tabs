@@ -5,6 +5,7 @@ $(document).ready(function() {
     $('.tabs_navigation ul li a').on('click', function(e) {
         e.preventDefault();
         tabs.name = $(this).attr('class');
+        $(this).parent().addClass('current').siblings().removeClass('current');
         tabs.tabsChanger();
     });
 
